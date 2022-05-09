@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!--SWAIPER-->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+
+    <!--STYLE-->
+    <link rel="stylesheet" href="style.css" />
+
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    />
+
+    <!--ICONES-->
+    <script
+      src="https://kit.fontawesome.com/46601f8994.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header id="header">
+      <nav class="container">
+        <a class="logo" href="#">Bar<span>ber</span></a>
+        <div class="menu">
+          <ul class="grid">
+            <li><a class="title" href="#home">início</a></li>
+            <li><a class="title" href="#about">Sobre</a></li>
+            <li><a class="title" href="#services">Serviços</a></li>
+            <li><a class="title" href="#testimonial">Depoimentos</a></li>
+            <li><a class="title" href="#contact">Contato</a></li>
+          </ul>
+        </div>
+        <i class="toggle fa-solid fa-bars"></i>
+        <i class="toggle fa-solid fa-xmark"></i>
+      </nav>
+    </header>
+
+    <main>
+      <!--HOME-->
+      <section class="section" id="home">
+        <div class="container grid">
+          <div class="image">
+            <img
+              src="https://images.pexels.com/photos/1813272/pexels-photo-1813272.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+              alt=""
+            />
+          </div>
+          <div class="text">
+            <h1 class="title">Melhores bolos da região</h1>
+            <p class="subtitle">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+            <a href="#" class="button">Agendar Horário</a>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider1"></div>
+
+      <!--ABOUT-->
+      <section class="section" id="about">
+        <div class="container grid">
+          <div class="image">
+            <img
+              src="https://images.pexels.com/photos/897253/pexels-photo-897253.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+              alt=""
+            />
+          </div>
+          <div class="text">
+            <h1 class="title">Sobre Nós</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus
+              eaque, rerum quae provident iusto, temporibus sint corrupti,
+              quaerat nobis adipisci aperiam? Culpa deleniti temporibus
+              accusamus esse, ratione reiciendis optio est?
+            </p>
+            <br />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
+              minima consectetur, accusamus non reiciendis dolorem blanditiis
+              autem laboriosam tempore facilis cum quidem voluptatibus omnis,
+              vero totam. A repellat eligendi eos!
+            </p>
+            <br />
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Blanditiis velit facilis iste id ipsam eum est tempore quae!
+              Facilis error eum deserunt non quia provident dicta itaque tempora
+              impedit optio?
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider2"></div>
+
+      <!--SERVICES-->
+      <section class="section" id="services">
+        <div class="container grid">
+          <header>
+            <h2 class="title">Serviços</h2>
+            <p class="subtitle">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat
+              at eveniet voluptatum labore! <strong>Dolores</strong> magni optio
+              quidem ex officia, voluptas aut nisi quod veritatis placeat?
+            </p>
+          </header>
+          <div class="cards grid">
+            <div class="card">
+              <i class="fa-solid fa-scissors"></i>
+              <h3 class="title">Cortes</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Asperiores consequuntur dolor ex hic qui. Consequuntur
+              </p>
+            </div>
+            <div class="card">
+              <i class="fa-solid fa-cookie"></i>
+              <h3 class="title">Brigadeiros</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Asperiores consequuntur dolor ex hic qui. Consequuntur
+              </p>
+            </div>
+            <div class="card">
+              <i class="fa-solid fa-cheese"></i>
+              <h3 class="title">Tortas</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Asperiores consequuntur dolor ex hic qui. Consequuntur
+              </p>
+              <i></i>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider1"></div>
+
+      <!--TESTIMONIALS-->
+      <section class="section" id="testimonial">
+        <div class="container">
+          <header>
+            <h2 class="title">Depoimentos de quem já passou por aqui</h2>
+          </header>
+          <div class="testimonials swiper">
+            <div class="swiper-wrapper">
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+                    eum voluptates, quia minima dolorum fugit architecto
+                    inventore.
+                  </p>
+                  <cite>
+                    <img
+                      src="https://randomuser.me/api/portraits/men/73.jpg"
+                      alt=""
+                    />
+                    Luiz Henrique
+                  </cite>
+                </blockquote>
+              </div>
+
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+                    eum voluptates, quia minima dolorum fugit architecto
+                    inventore.
+                  </p>
+                  <cite>
+                    <img
+                      src="https://randomuser.me/api/portraits/women/17.jpg"
+                      alt=""
+                    />
+                    Wanessa da Costa
+                  </cite>
+                </blockquote>
+              </div>
+
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+                    eum voluptates, quia minima dolorum fugit architecto
+                    inventore.
+                  </p>
+                  <cite>
+                    <img
+                      src="https://randomuser.me/api/portraits/men/84.jpg"
+                      alt=""
+                    />
+                    Sergio Rico
+                  </cite>
+                </blockquote>
+              </div>
+
+              <!-- If we need pagination -->
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider2"></div>
+
+      <!--CONTACT-->
+      <section class="section" id="contact">
+        <div class="container grid">
+          <div class="text">
+            <h2 class="title">Entre em contato com a gente!</h2>
+            <p class="subtitle">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Aspernatur magnam dolores deserunt perferendis laboriosam
+              voluptatem?
+            </p>
+            <a
+              href="https://api.whatsapp.com/send?phone=SeuNúmero&text=SuaMensagem"
+              target="_blank"
+              class="button"
+              ><i class="fa-brands fa-whatsapp"></i> Entrar em contato</a
+            >
+          </div>
+
+          <div class="links">
+            <ul class="grid">
+              <li><i class="fa-solid fa-phone"></i> 61 ********</li>
+              <li><i class="fa-solid fa-location-dot"></i> Brasil</li>
+              <li>
+                <i class="fa-solid fa-envelope"></i> luizpereira@gmail.com
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider1"></div>
+    </main>
+
+    <footer class="section">
+      <div class="container grid">
+        <div class="brand">
+          <a href="#home" class="logo logo-alt">Bar<span>ber</span>.</a>
+          <p>&copy2022 Barber.</p>
+          <p>Todos os direitos reservados.</p>
+        </div>
+        <div class="social">
+          <a href="https://instagram.com" target="_blank"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="https://facebook.com" target="_blank"
+            ><i class="fa-brands fa-facebook-square"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+    <a href="#home" class="back-to-top"><i class="fa-solid fa-arrow-up"></i></a>
+
+    <!--SWAIPER-->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <!--SCROLLREVEAL-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--MAIN-->
+    <script src="main.js"></script>
+  </body>
+</html>
