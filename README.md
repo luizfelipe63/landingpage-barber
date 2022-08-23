@@ -7,7 +7,7 @@
     Landing page desenvolvido no evento NLW da Rocketseat.
     <br />
     <br />
-    <a href="https://luizfelipe63.github.io/barber-responsive/">Live</a>
+    <a href="https://luizfelipe63.github.io/landingpage-barber/">Live</a>
   </p>
 </div>
 
