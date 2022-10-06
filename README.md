@@ -17,4 +17,4 @@
 
 ### :iphone: Mobile
 
-<p>Em breve</p>
+<p>Em brev</p>
